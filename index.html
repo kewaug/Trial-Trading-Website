@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Mastery Academy - Est. 2020</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">⚡</span>
+                <span class="brand-text">TradingMastery</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#inquiry">Inquiry</a></li>
+                <li><a href="#disclaimer">Risk Disclaimer</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Est. 2020</div>
+                <h1 class="hero-title">
+                    Master the Art of
+                    <span class="gradient-text">Chart Reading</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Learn professional trading strategies with Fibonacci Retracement techniques and advanced price action analysis
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Accuracy Rate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-label">Students Trained</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Fibonacci</div>
+                        <div class="stat-label">Retracement</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#packages" class="btn btn-primary">View Packages</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About the Academy</h2>
+                <p class="section-subtitle">Empowering traders with professional knowledge since 2020</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Transform Your Trading Journey</h3>
+                    <p>
+                        Our academy specializes in teaching advanced chart reading techniques using Fibonacci Retracement patterns, 
+                        price action analysis, and risk management strategies that professional traders use daily.
+                    </p>
+                    <p>
+                        Whether you're a complete beginner or looking to refine your skills, our comprehensive curriculum 
+                        will give you the tools and confidence to read markets like a professional.
+                    </p>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Fibonacci Retracement</span>
+                        <span class="skill-tag">Price Action</span>
+                        <span class="skill-tag">Risk Management</span>
+                        <span class="skill-tag">Chart Patterns</span>
+                        <span class="skill-tag">Support & Resistance</span>
+                        <span class="skill-tag">Trend Analysis</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="chart-icon">📈</div>
+                        <p>Professional Trading Education</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Training Packages</h2>
+                <p class="section-subtitle">Choose the perfect plan for your trading journey</p>
+            </div>
+            <div class="packages-grid">
+                <!-- Starter Package -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Starter</h3>
+                        <div class="package-price">
+                            <span class="currency">$</span>
+                            <span class="amount">149</span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ Candlestick Shortcuts PDF</li>
+                        <li>✓ Basic Chart Reading Course</li>
+                        <li>✓ Fibonacci Basics Training</li>
+                        <li>✓ Email Support</li>
+                        <li>✓ 30-Day Access</li>
+                    </ul>
+                    <button class="btn btn-package" onclick="openModal('starter')">Get Started</button>
+                </div>
+
+                <!-- Professional Package -->
+                <div class="package-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="package-header">
+                        <h3>Professional</h3>
+                        <div class="package-price">
+                            <span class="currency">$</span>
+                            <span class="amount">297</span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ Everything in Starter</li>
+                        <li>✓ Advanced Fibonacci Techniques</li>
+                        <li>✓ Live Trading Sessions</li>
+                        <li>✓ Private Discord Community</li>
+                        <li>✓ 90-Day Access</li>
+                        <li>✓ Weekly Q&A Sessions</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModal('professional')">Get Started</button>
+                </div>
+
+                <!-- Master Package -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Master</h3>
+                        <div class="package-price">
+                            <span class="currency">$</span>
+                            <span class="amount">597</span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li>✓ Everything in Professional</li>
+                        <li>✓ 1-on-1 Mentorship Sessions</li>
+                        <li>✓ Custom Trading Plan</li>
+                        <li>✓ Lifetime Access</li>
+                        <li>✓ Advanced Chart Reading Masterclass</li>
+                        <li>✓ Priority Support</li>
+                        <li>✓ Exclusive Trading Tools</li>
+                    </ul>
+                    <button class="btn btn-package" onclick="openModal('master')">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inquiry Section -->
+    <section id="inquiry" class="inquiry">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sign Up Inquiry</h2>
+                <p class="section-subtitle">Ready to start your trading journey? Get in touch with us</p>
+            </div>
+            <div class="inquiry-content">
+                <form class="inquiry-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="package">Interested Package *</label>
+                        <select id="package" name="package" required>
+                            <option value="">Select a package</option>
+                            <option value="starter">Starter - $149</option>
+                            <option value="professional">Professional - $297</option>
+                            <option value="master">Master - $597</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Trading Experience Level *</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select your level</option>
+                            <option value="beginner">Complete Beginner</option>
+                            <option value="intermediate">Some Experience</option>
+                            <option value="advanced">Advanced Trader</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message / Questions</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                </form>
+                <div class="inquiry-info">
+                    <div class="info-card">
+                        <h3>📧 Email Us</h3>
+                        <p>support@tradingmastery.com</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>⏰ Response Time</h3>
+                        <p>We typically respond within 24 hours</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🎓 Get Started</h3>
+                        <p>Begin your journey to professional trading today</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Disclaimer Section -->
+    <section id="disclaimer" class="disclaimer">
+        <div class="container">
+            <div class="disclaimer-content">
+                <div class="disclaimer-header">
+                    <span class="warning-icon">⚠️</span>
+                    <h2>Important Risk Disclaimer</h2>
+                </div>
+                
+                <div class="disclaimer-body">
+                    <div class="disclaimer-block">
+                        <h3>Capital at Risk</h3>
+                        <p>
+                            Trading financial instruments carries a high level of risk and may not be suitable for all investors. 
+                            You could lose some or all of your invested capital. Never invest money you cannot afford to lose.
+                        </p>
+                    </div>
+
+                    <div class="disclaimer-block">
+                        <h3>Leverage Risk</h3>
+                        <p>
+                            Leveraged trading can magnify both gains and losses. While leverage can amplify profits, it can also 
+                            amplify losses, potentially exceeding your initial investment. Understand the risks before using leverage.
+                        </p>
+                    </div>
+
+                    <div class="disclaimer-block">
+                        <h3>Educational Content Only</h3>
+                        <p>
+                            All content, courses, and materials provided by Trading Mastery Academy are for educational purposes only. 
+                            This is not financial advice, investment advice, or a recommendation to buy or sell any financial instrument. 
+                            Always conduct your own research and consult with a licensed financial advisor before making investment decisions.
+                        </p>
+                    </div>
+
+                    <div class="disclaimer-block">
+                        <h3>Past Performance</h3>
+                        <p>
+                            Past performance is not indicative of future results. Any examples, statistics, or success stories shared 
+                            are not guarantees of similar outcomes. Individual results will vary based on market conditions, experience, 
+                            and personal risk management.
+                        </p>
+                    </div>
+
+                    <div class="disclaimer-block">
+                        <h3>Regulatory Compliance</h3>
+                        <p>
+                            Always verify that any broker or platform you choose to work with is properly regulated by the appropriate 
+                            financial authorities in your jurisdiction. Trading Mastery Academy does not endorse any specific broker or platform.
+                        </p>
+                    </div>
+
+                    <div class="disclaimer-block highlight">
+                        <h3>⚡ Final Warning</h3>
+                        <p>
+                            By purchasing any course or educational material, you acknowledge that you understand these risks and 
+                            accept full responsibility for your trading decisions. Only trade with risk capital - money you can 
+                            afford to lose without affecting your lifestyle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    
+    <!-- Package Modal -->
+    <div id="packageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('packageModal')">&times;</span>
+            <h2 id="modalPackageTitle">Select Package</h2>
+            <p id="modalPackageDescription"></p>
+            <div class="modal-cta">
+                <p>To complete your enrollment, please contact us:</p>
+                <a href="#inquiry" class="btn btn-primary" onclick="closeModal('packageModal')">Go to Inquiry Form</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart Reading Modal -->
+    <button class="floating-btn" onclick="openChartModal()" title="Learn About Fibonacci">
+        📊
+    </button>
+
+    <div id="chartModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('chartModal')">&times;</span>
+            <h2>Understanding Fibonacci Retracement</h2>
+            <div class="chart-info">
+                <p>
+                    Fibonacci Retracement is a powerful technical analysis tool used to identify potential support and 
+                    resistance levels based on the Fibonacci sequence.
+                </p>
+                <h3>Key Fibonacci Levels:</h3>
+                <ul>
+                    <li><strong>23.6%</strong> - Shallow retracement</li>
+                    <li><strong>38.2%</strong> - Moderate retracement</li>
+                    <li><strong>50.0%</strong> - Psychological midpoint</li>
+                    <li><strong>61.8%</strong> - Golden ratio (most important)</li>
+                    <li><strong>78.6%</strong> - Deep retracement</li>
+                </ul>
+                <div class="skill-tags-modal">
+                    <span class="skill-tag">Fibonacci Retracement</span>
+                    <span class="skill-tag">Support Levels</span>
+                    <span class="skill-tag">Resistance Levels</span>
+                    <span class="skill-tag">Price Action</span>
+                </div>
+                <p class="modal-note">
+                    Our courses teach you how to apply Fibonacci Retracement effectively in real market conditions.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Broker Modal -->
+    <div id="brokerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('brokerModal')">&times;</span>
+            <h2>Choosing a Regulated Broker</h2>
+            <div class="broker-info">
+                <div class="warning-box">
+                    <span class="warning-icon">⚠️</span>
+                    <p><strong>Important:</strong> Always verify regulatory status before opening an account!</p>
+                </div>
+                
+                <h3>What to Look For:</h3>
+                <ul>
+                    <li>✓ Proper regulatory license (SEC, FCA, ASIC, CySEC, etc.)</li>
+                    <li>✓ Segregated client funds</li>
+                    <li>✓ Negative balance protection</li>
+                    <li>✓ Transparent fee structure</li>
+                    <li>✓ Strong customer support</li>
+                    <li>✓ User-friendly trading platform</li>
+                </ul>
+
+                <h3>Regulatory Bodies to Check:</h3>
+                <div class="regulatory-list">
+                    <div class="reg-item">
+                        <strong>🇺🇸 United States:</strong> SEC, CFTC, NFA
+                    </div>
+                    <div class="reg-item">
+                        <strong>🇬🇧 United Kingdom:</strong> FCA
+                    </div>
+                    <div class="reg-item">
+                        <strong>🇦🇺 Australia:</strong> ASIC
+                    </div>
+                    <div class="reg-item">
+                        <strong>🇪🇺 European Union:</strong> CySEC, BaFin, CONSOB
+                    </div>
+                </div>
+
+                <div class="warning-box">
+                    <p>
+                        <strong>Never trade with unregulated brokers.</strong> Always verify the broker's license 
+                        number on the regulator's official website. If something seems too good to be true, it probably is.
+                    </p>
+                </div>
+
+                <p class="modal-note">
+                    Trading Mastery Academy does not endorse any specific broker. Do your own research and choose wisely.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TradingMastery</h3>
+                    <p>Professional trading education since 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#inquiry">Inquiry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#disclaimer">Risk Disclaimer</a></li>
+                        <li><a href="#" onclick="openChartModal(); return false;">Fibonacci Guide</a></li>
+                        <li><a href="#" onclick="openBrokerModal(); return false;">Broker Selection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>support@tradingmastery.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2020-2024 Trading Mastery Academy. All rights reserved.</p>
+                <p class="footer-disclaimer">Trading involves significant risk. Educational content only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
